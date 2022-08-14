@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Dragable
   layers:
   - Default
   - TransparentFX
@@ -16,6 +17,8 @@ TagManager:
   - 
   - 
   - Player
+  - BaseLevelGeometry
+  - PlacedLevelGeometry
   - 
   - 
   - 
@@ -23,9 +26,7 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
+  - Draggable
   - 
   - 
   - 
