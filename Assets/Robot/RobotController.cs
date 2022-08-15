@@ -2,11 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using TMPro;
+using UnityEngine.UI;
 
 public class RobotController : MonoBehaviour
 {
     public Camera cam;
     public NavMeshAgent agent;
+    public TextMeshProUGUI finish_label;
+    public Button goButton;
 
     private List<Collectible> collectibles;
     private int score = 0;
@@ -16,6 +20,7 @@ public class RobotController : MonoBehaviour
     private void Start()
     {
         collectibles = new List<Collectible>(FindObjectsOfType<Collectible>());
+        finish_label.enabled = false;
     }
 
     // Update is called once per frame
@@ -32,6 +37,13 @@ public class RobotController : MonoBehaviour
         go_pressed = true;
         
         Debug.Log(collectibles.Count);
+        if (collectibles.Count == 0)
+        {
+            Debug.Log("End of Game");
+            agent.isStopped = true;
+            finish_label.enabled = true;
+            goButton.enabled = false;
+        }
 
         float distance = float.MaxValue;
         closest = null;
