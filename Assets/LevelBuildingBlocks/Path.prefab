@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2596640042567601242}
   - component: {fileID: 6651291718887273377}
   - component: {fileID: 7337198579866310919}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -111,7 +111,8 @@ GameObject:
   - component: {fileID: 8089216455530199119}
   - component: {fileID: 1511761248490579302}
   - component: {fileID: 859354597845651269}
-  m_Layer: 0
+  - component: {fileID: 8840077261183981817}
+  m_Layer: 11
   m_Name: Path
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -211,6 +212,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2432090755550338912, guid: d1d13e275a4ea4947a289f5ea0196a86, type: 3}
+--- !u!114 &8840077261183981817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5906184365385070928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 0
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &6882344672976645294
 GameObject:
   m_ObjectHideFlags: 0
@@ -223,7 +240,7 @@ GameObject:
   - component: {fileID: 1192406729483527274}
   - component: {fileID: 5256746820926736427}
   - component: {fileID: 2684908261859184864}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Dragable
+  - Collectible
+  - Robot
   layers:
   - Default
   - TransparentFX
@@ -19,7 +21,7 @@ TagManager:
   - Player
   - BaseLevelGeometry
   - PlacedLevelGeometry
-  - 
+  - Collectible
   - 
   - 
   - 

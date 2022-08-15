@@ -1,0 +1,101 @@
+# Blender MTL File: 'computer.blend'
+# Material Count: 9
+
+newmtl BatteryMaterial
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Katie\\Projects\\GitHub\\RobotsHelper\\Assets\\Models\\BatteryTexture.png
+
+newmtl CableMaterial
+Ns 359.999993
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Katie\\Projects\\GitHub\\RobotsHelper\\Assets\\Models\\CableTexture.png
+
+newmtl CartMaterial
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Katie\\Projects\\GitHub\\RobotsHelper\\Assets\\Models\\CartTexture.png
+
+newmtl CasterMaterial
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Katie\\Projects\\GitHub\\RobotsHelper\\Assets\\Models\\CasterTexture.png
+
+newmtl ChainMaterial
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Katie\\Projects\\GitHub\\RobotsHelper\\Assets\\Models\\CasterTexture.png
+
+newmtl ComputerMaterial
+Ns 359.999993
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Katie\\Projects\\GitHub\\RobotsHelper\\Assets\\Models\\ComputerTexture.png
+
+newmtl MonitorMaterial
+Ns 359.999993
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Katie\\Projects\\GitHub\\RobotsHelper\\Assets\\Models\\MonitorTexture.png
+
+newmtl MotorMaterial
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Katie\\Projects\\GitHub\\RobotsHelper\\Assets\\Models\\MotorTexture.png
+
+newmtl ScreenMaterial
+Ns 359.999993
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Katie\\Projects\\GitHub\\RobotsHelper\\Assets\\Models\\ScreenTexture.png
